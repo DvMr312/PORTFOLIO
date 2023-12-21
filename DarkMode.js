@@ -12,7 +12,7 @@ function changeDarkMod(){
         //Dark Mod
         Lightmod = true;
         document.documentElement.style.setProperty("--text-color", "white");
-        document.documentElement.style.setProperty("--background-color", "rgb(0, 0, 0)");
+        document.documentElement.style.setProperty("--background-color", "rgb(61, 61, 61)");
         document.getElementById("dark-light-mode").innerHTML = "Light Mode";
 
     }
