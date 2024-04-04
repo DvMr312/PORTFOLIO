@@ -1,0 +1,79 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+/* scrollbar custom*/
+::-webkit-scrollbar{
+    width: 20px;
+}
+::-webkit-scrollbar-track{
+    background-color: var(--background-color);
+    
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#7d50f9, #227eff);
+    border-radius: 5px;
+}
+
+:root {
+    --background-color: #efe7e5;
+    --text-color: rgb(0, 0, 0);
+}
+
+body {
+    font-family: 'Poppins';
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.Logo a{
+    color: var(--text-color);
+}
+
+.NavBar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    width: 97%;
+}
+
+.NavBar ul{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    flex-wrap: wrap;
+}
+
+.NavBar ul li{
+    display: flex;
+    margin-left: 40px;
+    cursor: pointer;  
+}
+
+.NavBar ul li a{
+    color: var(--text-color);
+}
+
+.NavBar .menuHamburger{
+    display: none;
+    position: absolute;
+    width: 35px;
+    right: 40px;
+    top: 28px;
+}
+.ann61{
+    position: absolute;
+    left: 10%;
+    top: 110%;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #525252;
+    border: none;
+    border-radius: 8px;
+}
