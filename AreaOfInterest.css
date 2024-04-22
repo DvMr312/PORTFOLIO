@@ -229,6 +229,62 @@ body {
     box-shadow: 0 0 10px 10px #783affbf;
 }
 
+/*Card AreaOfInterest*/
+.card4{
+    background-color: #7d50f948;
+    backdrop-filter: blur(5px);
+    width: 25%;
+    height: 650px;
+    margin-left: 75%;
+    margin-top: -34.3%;
+    border-radius: 10px;
+    border-top: 1px solid rgb(107, 107, 107);    
+    border-left: 1px solid rgb(107, 107, 107);
+    border-bottom: 1px solid rgb(107, 107, 107);
+    border-right: 1px solid rgb(107, 107, 107);
+}
+.card4 h1{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12%;
+    margin-left: 30%;
+}
+.card4 img{    
+    display: flex;
+    margin-top: 30px;
+    margin-left: 115px;
+    clip-path: circle(50% at 50% 50%);
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.card4 p{
+    position: absolute;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 5%;
+    margin-top: 106px;
+}
+.card4 a {
+    color: var(--text-color);
+    text-align: center;
+}
+.card4 a{
+    display: flex;
+    margin-left: 33%;
+    margin-top: 63%;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #4000c9bf;
+    width: 115px;
+    padding: 8px ;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 10px #783affbf;
+}
+
 
 /*-------------------------------------------------------------------------------------------------------- RESPONSIVE--------------------------------------------------------------------------------------------------------------*/
 /*Responsive à partir du format 1920px x 1080px*/
