@@ -468,7 +468,7 @@ body {
 
 /*-------------------------------------------------------------------------------------------------------- RESPONSIVE--------------------------------------------------------------------------------------------------------------*/
 /*Responsive à partir du format 1920px x 1080px*/
-@media screen and (max-width: 1920px) and (max-height: 1080px) {
+@media (min-resolution: 192dpi) {
     .memoji{
         display: flex;
         flex-wrap: wrap;
