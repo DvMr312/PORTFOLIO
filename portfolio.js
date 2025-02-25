@@ -1,5 +1,5 @@
 const textDisplay = document.getElementById('textdesc')
-const phrases = ['Etudiant  en BTS Services informatiques aux organisations Option SLAM .', 'And i love to code.']
+const phrases = ['Etudiant  en BTS cybersécurité, informatique et réseaux, électronique option A informatique et réseaux .', 'And i love hack :)']
 
 let i = 0
 let j = 0
