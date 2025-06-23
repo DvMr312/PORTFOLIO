@@ -124,6 +124,35 @@ body {
     text-decoration: none;
 }
 
-
+/* === RESPONSIVE DESIGN === */
+@media screen and (max-width: 768px) {
+    
+    .NavBar .nav-links {
+        position: absolute;
+        display: flex;
+        background-color: rgba(104, 17, 191, 0.315);
+        backdrop-filter: blur(7px);
+        height: 100vh;
+        width: 100%;
+        left: 0;
+        top: 0;
+        align-items: center;
+        margin-left: -100%;
+        transition: all 0.8s ease;
+        z-index: 2;
+    }
+    .nav-links.mobile-menu {
+    margin-left: 0;
+    }
+    .NavBar .nav-links ul li{
+        margin: 22px 0;
+        font-size: 20px;
+        margin-left: 99px;      
+    }
+    .NavBar .menuHamburger{
+        display: block;
+        z-index: 3;
+    }
+}
 
 
