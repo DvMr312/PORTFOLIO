@@ -88,7 +88,7 @@ img{
         display: flex;
         background-color: rgba(104, 17, 191, 0.315);
         backdrop-filter: blur(7px);
-        height: 100vh;
+        height: 138vh;
         width: 100%;
         left: 0;
         top: 0;
@@ -103,10 +103,12 @@ img{
     .NavBar .nav-links ul li{
         margin: 22px 0;
         font-size: 20px;
-        margin-left: 99px;      
+        margin-left: 190px;      
     }
     .NavBar .menuHamburger{
         display: block;
         z-index: 3;
     }
+
+    
 }
