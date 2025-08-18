@@ -80,35 +80,38 @@ img{
     flex-wrap: wrap;
 }
 
-/* === RESPONSIVE DESIGN === */
-@media screen and (max-width: 768px) {
-    
+/*-----------------------------------------------------------------------------------------------RESPONSIVE MENU HAMBURGER---------------------------------------------------------------------------------------------------------*/
+/*Responsive à partir du format 1090px*/
+@media screen and (max-width: 1090px) {
+    .NavBar ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .NavBar .nav-links {
+        z-index: 2;
         position: absolute;
         display: flex;
-        background-color: rgba(104, 17, 191, 0.315);
+        background-color: rgba(126, 0, 251, 0.315);
         backdrop-filter: blur(7px);
-        height: 138vh;
+        height: 140vh;
         width: 100%;
         left: 0;
         top: 0;
         align-items: center;
         margin-left: -100%;
         transition: all 0.8s ease;
-        z-index: 2;
     }
     .nav-links.mobile-menu {
     margin-left: 0;
     }
     .NavBar .nav-links ul li{
         margin: 22px 0;
-        font-size: 20px;
-        margin-left: 190px;      
+        font-size: 25px;
+        margin-left: 160px;        
     }
     .NavBar .menuHamburger{
         display: block;
-        z-index: 3;
+        z-index: 2;
     }
-
-    
 }

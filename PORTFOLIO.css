@@ -196,35 +196,39 @@ header {
     margin-bottom: 15px;
 }
 
-/* === RESPONSIVE DESIGN === */
-@media screen and (max-width: 768px) {
-    
+/*-----------------------------------------------------------------------------------------------RESPONSIVE MENU HAMBURGER---------------------------------------------------------------------------------------------------------*/
+/*Responsive à partir du format 1090px*/
+@media screen and (max-width: 1090px) {
+    .NavBar ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .NavBar .nav-links {
+        z-index: 2;
         position: absolute;
         display: flex;
-        background-color: rgba(104, 17, 191, 0.315);
+        background-color: rgba(126, 0, 251, 0.315);
         backdrop-filter: blur(7px);
         height: 100vh;
         width: 100%;
-        left: -5%;
-        top: 0%;
+        left: 0;
+        top: 0;
         align-items: center;
-        justify-content: center;
-        transform: translateX(-120%);
+        margin-left: -105%;
         transition: all 0.8s ease;
-        z-index: 2;
     }
     .nav-links.mobile-menu {
-        transform: translateX(0);
+    margin-left: 0;
     }
     .NavBar .nav-links ul li{
         margin: 22px 0;
         font-size: 20px;
-        margin-left: 120px;      
+        margin-left: 105px;        
     }
     .NavBar .menuHamburger{
         display: block;
-        z-index: 3;
+        z-index: 2;
     }
 
     .dmpr {
