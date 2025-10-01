@@ -73,9 +73,14 @@ header {
 
 .memoji {
     max-width: 100%;
-    width: 400px;
+    width: 220px;
+    height: 220px; 
     margin: 0 auto;
+    border-radius: 50%; 
+    object-fit:fill; 
+    display: block; 
 }
+
 
 .dmpr {
     font-size: 50px;
