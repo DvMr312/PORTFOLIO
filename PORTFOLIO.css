@@ -204,6 +204,14 @@ header {
     padding-left: 10px;
 }
 
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #777;
+  padding: 20px;
+}
+
+
 /*-----------------------------------------------------------------------------------------------RESPONSIVE MENU HAMBURGER---------------------------------------------------------------------------------------------------------*/
 /*Responsive à partir du format 1090px*/
 @media screen and (max-width: 1090px) {
