@@ -104,6 +104,50 @@ body {
     max-width: 300px;
 }
 
+.cardScaling {
+    background-color: #fff82272;
+    border: 1px solid rgb(125, 125, 125);
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 100%;
+    max-width: 300px;
+}
+
+.cardCalcul {
+    background-color: #22ff2d72;
+    border: 1px solid rgb(125, 125, 125);
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 100%;
+    max-width: 300px;
+}
+
+.cardMER {
+    background-color: #0004ff8e;
+    border: 1px solid rgb(125, 125, 125);
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 100%;
+    max-width: 300px;
+}
+
+.cardSEC {
+    background-color: #ff00008e;
+    border: 1px solid rgb(125, 125, 125);
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 100%;
+    max-width: 300px;
+}
+
 .card {
     background-color: rgba(255, 255, 255, 0.1);
     border: 1px solid rgb(125, 125, 125);
