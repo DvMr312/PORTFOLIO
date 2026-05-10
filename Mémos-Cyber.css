@@ -82,6 +82,17 @@ body {
     max-width: 300px;
 }
 
+.card-technova {
+    background-color: #ff000072;
+    border: 1px solid rgb(125, 125, 125);
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 100%;
+    max-width: 300px;
+}
+
 .cardStockage {
     background-color: #ae22ff72;
     border: 1px solid rgb(125, 125, 125);
