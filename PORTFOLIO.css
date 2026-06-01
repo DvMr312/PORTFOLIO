@@ -124,8 +124,9 @@ header {
     margin-top: 80px;
 }
 
-.containerHC, .containerRS, .containerC,
-.containerJS, .containerVM, .containerKL, .containerZAP, .containerNMAP, .containerCPT {
+.containerHC, .containerRS, .containerC, .containerJS, .containerVM, .containerKL, 
+.containerZAP, .containerNMAP, .containerCPT, .containerAWS, .containerSy, .containerLOOP, 
+.containerMySQL, .containerWAMP {
     background-color: transparent;
     border-radius: 10px;
     padding: 30px 20px;
@@ -133,8 +134,10 @@ header {
     width: 150px;
 }
 
-.circular-progress, .circular-progressRS, .circular-progressC,
-.circular-progressJS, .circular-progressVM, .circular-progressKL, .circular-progressZAP, .circular-progressNMAP, .circular-progressCPT {
+.circular-progress, .circular-progressRS, .circular-progressC, .circular-progressJS, 
+.circular-progressVM, .circular-progressKL, .circular-progressZAP, .circular-progressNMAP, 
+.circular-progressCPT, .circular-progressAWS, .circular-progressSy, .circular-progressLOOP,
+.circular-progressMySQL, .circular-progressWAMP {
     position: relative;
     height: 90px;
     width: 90px;
@@ -154,7 +157,12 @@ header {
 .circular-progressKL::before,
 .circular-progressZAP::before,
 .circular-progressNMAP::before,
-.circular-progressCPT::before {
+.circular-progressCPT::before,
+.circular-progressAWS::before,
+.circular-progressSy::before,
+.circular-progressLOOP::before,
+.circular-progressMySQL::before,
+.circular-progressWAMP::before {
     content: "";
     position: absolute;
     height: 70px;
@@ -164,13 +172,16 @@ header {
 }
 
 .progress-value, .progress-valueRS, .progress-valueC,
-.progress-valueJS, .progress-valueVM, .progress-valueKL, .progress-valueZAP, .progress-valueNMAP, .progress-valueCPT {
+.progress-valueJS, .progress-valueVM, .progress-valueKL, .progress-valueZAP, 
+.progress-valueNMAP, .progress-valueCPT, .progress-valueAWS, .progress-valueSy, 
+.progress-valueLOOP, .progress-valueMySQL, .progress-valueWAMP {
     z-index: 1;
     font-weight: 500;
     color: #000;
 }
 
-.textHC, .textRS, .textC, .textJS, .textVM, .textKL, .textZAP, .textNMAP, .textCPT {
+.textHC, .textRS, .textC, .textJS, .textVM, .textKL, .textZAP, .textNMAP, .textCPT, .textAWS,
+.textSy, .textLOOP, .textMySQL, .textWAMP {
     font-weight: 500;
 }
 
